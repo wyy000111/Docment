@@ -12,3 +12,14 @@ https://cdn.jsdelivr.net/gh/wyy000111/Docment/hi.md
 
 
 https://gh-proxy.com/https://raw.githubusercontent.com/wyy000111/Docment/main/hi.md
+
+
+
+[# File3](https://raw.gitmirror.com/wyy000111/Docment/main/hi.md)
+
+
+https://raw.gitmirror.com/wyy000111/Docment/main/hi.md
+
+
+
+https://github-raw.wyy000111.workers.dev/
