@@ -1,91 +1,16 @@
-{
-  "outbounds": [
-    {
-      "type": "vmess",
-      "tag": "Replit § 0",
-      "server": "localhost",
-      "server_port": 443,
-      "uuid": "9fc469f0-1c3b-4517-a3be-28b83f8d93c6",
-      "security": "auto",
-      "authenticated_length": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "localhost",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vm",
-        "headers": {
-          "Host": "localhost"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-
-    {
-      "type": "vmess",
-      "tag": "MW-US3 § 2",
-      "server": "us3.apinew.com",
-      "server_port": 443,
-      "uuid": "8626e9b1-f061-4dcb-928e-fb0c0c397c65",
-      "security": "auto",
-      "alter_id": 233,
-      "authenticated_length": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "us3.apinew.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/233blog",
-        "headers": {
-          "Host": "us3.apinew.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "CF § 3",
-      "server": "www.visa.com.sg",
-      "server_port": 8880,
-      "uuid": "04c793d1-5450-40b5-8201-dd59dacad064",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "v2ray.wyy000111.workers.dev"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vmess",
-      "tag": "Azure-US § 4",
-      "server": "52.160.33.186",
-      "server_port": 300,
-      "uuid": "cd07081b-2e52-4ebf-8ee6-6ca16175c7f2",
-      "security": "auto",
-      "authenticated_length": true
-    },
-    {
-      "type": "vmess",
-      "tag": "Azure-JP § 5",
-      "server": "172.207.41.121",
-      "server_port": 250,
-      "uuid": "72b9088f-51e3-49af-90f3-4a0e34a2a262",
-      "security": "auto",
-      "authenticated_length": true
-    },
-  ]
-}
+vmess://eyJ2IjoiMiIsInBzIjoiaGljYWlyby5jb20iLCJhZGQiOiJsb2NhbGhvc3QiLCJwb3J0IjoiNDQzIiwiaWQiOiI5ZmM0NjlmMC0xYzNiLTQ1MTctYTNiZS0yOGI4M2Y4ZDkzYzYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJsb2NhbGhvc3QiLCJwYXRoIjoiL3ZtIiwidGxzIjoidGxzIn0=
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1LUiIsDQogICJhZGQiOiAiMTMuMTI0Ljk3LjgyIiwNCiAgInBvcnQiOiAiMTA4NTMiLA0KICAiaWQiOiAiYWJmN2JjNGYtZjFmOC00ODZhLWEyNDYtZDE3ZmNkOTJjYTYzIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIk1XLVVTMyIsDQogICJhZGQiOiAidXMzLmFwaW5ldy5jb20iLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiODYyNmU5YjEtZjA2MS00ZGNiLTkyOGUtZmIwYzBjMzk3YzY1IiwNCiAgImFpZCI6ICIyMzMiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInVzMy5hcGluZXcuY29tIiwNCiAgInBhdGgiOiAiLzIzM2Jsb2ciLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+vless://04c793d1-5450-40b5-8201-dd59dacad064@www.visa.com.sg:8880?encryption=none&security=none&type=ws&host=v2ray.wyy000111.workers.dev&path=%2F%3Fed%3D2048#CF
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkF6dXJlLVVTLWtjcCIsDQogICJhZGQiOiAiNTIuMTYwLjMzLjE4NiIsDQogICJwb3J0IjogIjUwMCIsDQogICJpZCI6ICJiOTFlODk4YS02YzM0LTQyNjYtYWZkZi1lNDU3MjJlMTVkNWYiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogImtjcCIsDQogICJ0eXBlIjogInNydHAiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkF6dXJlLVVTIiwNCiAgImFkZCI6ICI1Mi4xNjAuMzMuMTg2IiwNCiAgInBvcnQiOiAiMzAwIiwNCiAgImlkIjogImNkMDcwODFiLTJlNTItNGViZi04ZWU2LTZjYTE2MTc1YzdmMiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkF6dXJlLUpQLWtjcCIsDQogICJhZGQiOiAiMTcyLjIwNy40MS4xMjEiLA0KICAicG9ydCI6ICIzMDAiLA0KICAiaWQiOiAiMTM5ZmE2NTctODIzZC00NTRjLWJmNWYtODIzZjk3YWNlZTIxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJrY3AiLA0KICAidHlwZSI6ICJzcnRwIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiMTM5ZmE2NTctODIzZC00NTRjLWJmNWYtODIzZjk3YWNlZTIxIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkF6dXJlLUpQIiwNCiAgImFkZCI6ICIxNzIuMjA3LjQxLjEyMSIsDQogICJwb3J0IjogIjI1MCIsDQogICJpZCI6ICI3MmI5MDg4Zi01MWUzLTQ5YWYtOTBmMy00YTBlMzRhMmEyNjIiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1VUyIsDQogICJhZGQiOiAiNTQuMjQxLjIwOC4xMzEiLA0KICAicG9ydCI6ICI1MDI4NSIsDQogICJpZCI6ICIzNzAwM2VmNC1mMmQ2LTQ3MmUtODEyOS00MjM4NTcxMDRkZmEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1Ub2t5byIsDQogICJhZGQiOiAiMTMuMjMxLjEyMy43OCIsDQogICJwb3J0IjogIjI4NzU5IiwNCiAgImlkIjogIjRiYjhiZTNhLTBmM2MtNGUzNy1hNTZlLWE4MGM0MTI2N2M5NCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1LUi1rY3AiLA0KICAiYWRkIjogIjEzLjEyNC45Ny44MiIsDQogICJwb3J0IjogIjE3ODQzIiwNCiAgImlkIjogIjc3N2FhZWQxLWY1MjgtNGM5ZS1iNTRmLTY4YWM1NTJkYWY2NyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAia2NwIiwNCiAgInR5cGUiOiAid2lyZWd1YXJkIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiNzc3YWFlZDEtZjUyOC00YzllLWI1NGYtNjhhYzU1MmRhZjY3IiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1ISyIsDQogICJhZGQiOiAiMTguMTYzLjguMzUiLA0KICAicG9ydCI6ICIxOTg4MSIsDQogICJpZCI6ICIyYzRlODY3Ny04MDE4LTRjNDktYTE3MC0zYzBhY2U5YzgwZDQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1GUiIsDQogICJhZGQiOiAiMTUuMTg4LjQ4LjEwNiIsDQogICJwb3J0IjogIjcyMDYiLA0KICAiaWQiOiAiZjZmYmEzYTAtMmYwZi00OTFjLWFmNzAtMDFlMzg3YzM0M2U2IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1BZnJpY2EiLA0KICAiYWRkIjogIjEzLjI0Ni4yMzEuMTgzIiwNCiAgInBvcnQiOiAiNTIxOTgiLA0KICAiaWQiOiAiNmM5ZGEyNWMtMWUyZS00MDJlLWFlNzItN2QxYTg3N2JhNzE1IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1JbmRpYW4iLA0KICAiYWRkIjogIjUyLjY2LjIxMC42MSIsDQogICJwb3J0IjogIjQwODI3IiwNCiAgImlkIjogIjMyY2JhOGQ0LWExNjAtNDZkZC05NmYzLTAzN2Q4Mzk2NGZkYiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFXUy1TaW5nYXBvcmUiLA0KICAiYWRkIjogIjEzLjI1MC40Ni42OCIsDQogICJwb3J0IjogIjU2NjgiLA0KICAiaWQiOiAiOWJlM2M4ZjEtMmE0NC00ZGIyLWFiNDItZTNlNGRhYmFlMzY4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
