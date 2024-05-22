@@ -1,2 +1,2 @@
-vless://b47ff3be-cf63-470d-9155-be114cc96b93@52.160.33.186:300?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=www.cloudflare.com&pbk=tvNh04AT0gbH_9gstAtDYFtzK5lqVxJqKlOs0rycQ3w&fp=chrome#233boy-reality-52.160.33.186
-vless://f91c3dc3-729b-4794-b2c7-9590baaadfdf@172.207.41.121:259?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=aws.amazon.com&pbk=LMtR52FkwHAa1ShhVoT4zAQDr-X0twFM_6I0RTT9uGc&fp=chrome#233boy-reality-172.207.41.121
+vmess://eyJ2IjoyLCJwcyI6IjIzM2JveS10Y3AtMTcyLjIwNy40MS4xMjEiLCJhZGQiOiIxNzIuMjA3LjQxLjEyMSIsInBvcnQiOiIyNTAiLCJpZCI6IjAzYjllOTQ4LWFhZGItNDc0Ni04NGE3LWM1MzQxNWQyMzQzMiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiaHR0cCIsInBhdGgiOiIifQ==
+vmess://eyJ2IjoyLCJwcyI6IjIzM2JveS10Y3AtNTIuMTYwLjMzLjE4NiIsImFkZCI6IjUyLjE2MC4zMy4xODYiLCJwb3J0IjoiMzAwIiwiaWQiOiIyZTMzNjZkMS0yNWM3LTRjMjAtYThkMy01MGEzYWI1NmU1ZmIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Imh0dHAiLCJwYXRoIjoiIn0=
