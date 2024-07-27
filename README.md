@@ -22,4 +22,22 @@ https://raw.gitmirror.com/wyy000111/Docment/main/hi.md
 
 
 
-https://github-raw.wyy000111.workers.dev/
+https://github.yongyong.us.kg
+
+asco.us.kg
+
+asian.us.kg
+
+bigchina.us.kg
+
+csco.us.kg
+
+freechina.us.kg
+
+mmorpg.us.kg
+
+yongyong.cloudns.be
+
+yongyong.online
+
+yongyong.us.kg
