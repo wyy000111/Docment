@@ -5,7 +5,7 @@
 https://cdn.jsdelivr.net/gh/wyy000111/Docment/avatar.png
 
 
-https://cdn.jsdelivr.net/gh/wyy000111/Docment/avator.png
+
 
 
 [# File2](https://gh-proxy.com/https://raw.githubusercontent.com/wyy000111/Docment/main/hi.md)
